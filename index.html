@@ -3,11 +3,27 @@
 <head>
   <title>Realtime communication with WebRTC</title>
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>Realtime communication with WebRTC</h1>
+  <main>
+          <header>
+              <div class="user-count">0</div>
+              <h1>Tokyo Chat</h1>
+            <video autoplay playsinline></video>
+          </header>
 
-  <video autoplay playsinline></video>
+          <section class="chat">
+              <p><strong>Pepito</strong>: Hey everyone!</p>
+              <hr />
+              <p><strong>親日</strong>: こんいちは！</p>
+              <hr />
+          </section>
+          <form>
+              <input type="text" placeholder="Say something nice" />
+              <button>Send</button>
+          </form>
+      </main>
   <script src="js/main.js"></script>
 </body>
 </html>
